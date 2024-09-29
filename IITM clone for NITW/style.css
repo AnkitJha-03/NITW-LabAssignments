@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 70%;
+    height: 20vh;
+    margin: 0 auto;
+    font-size: medium;
+}
+i {
+    vertical-align: middle;
+    padding-bottom: 2%;
+}
+#info {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info-text {
+    font-size: small;
+}
+#nitw{
+    width: 40%;
+}
+#g20 {
+    width: 8%;
+}
+#certificate {
+    border: 2px solid red;
+    color: red;
+    padding: 0.3%;
+}
+#info i {
+    color: red;
+}
+nav {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#center {
+    height: 70vh;
+    background-color: whitesmoke;
+}
+#announcements {
+    width: 70%;
+    margin: 0 auto;
+    height: 7%;
+    display: flex;
+    align-items: center;
+}
+#heading {
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 0 20px;
+    padding-top: 8px;
+}
+
+
+#announcements span {
+    color: red;
+    margin: 0 4vh;
+    font-weight: 900;
+}
+.slider{
+    width: 100%;
+    height: 93%;
+    overflow: hidden;
+}
+figure{
+    position: relative;
+    left: 0;
+    width: 400%;
+    animation: 10s slide infinite;
+}
+.slide{
+    position: relative;
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.slide img{
+    height: 100%;
+    object-fit: cover;
+}
+@keyframes slide{
+    0% {
+        left: 0%;
+    }
+    10% {
+        left: 0%;
+    }
+    30% {
+        left: -100%;
+    }
+    35% {
+        left: -100%;
+    }
+    55% {
+        left: -200%;
+    }
+    60% {
+        left: -200%;
+    }
+    80% {
+        left: -300%
+    }
+    85% {
+        left: -300%;
+    }
+}
+
+
+#newsSection{
+    width: 75%;
+    margin: 6vh auto;
+
+}
+#newsSection header {
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+}
+#newsSection #left {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#newsSection #right {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#left-left, #right-left {
+    font-size: xx-large;
+    font-weight: bold;
+}
+#left-right, #right-right {
+    color: red;
+    margin-top: 1vh;
+}
+span {
+    font-size: 1.3em;
+    color: red;
+    margin-right: 1vh;
+}
+#newsContainer {
+    display: flex;
+}
+.news {
+    width: 25%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.news img {
+    width: 92%;
+}
+.news-info {
+    margin-top: 2vh;
+    color: gray;
+}
+h1 {
+    width: 79%;
+    margin: 4vh auto;
+}
+
+
+#eventContainer {
+    width: 70%;
+    margin: 5vh auto;
+    background-color: antiquewhite;
+}
+#eventContainer main {
+    display: flex;
+}
+#eventContainer #img {
+    background-image: url(images/event.webp);
+    width: 70%;
+    height: 50vh;
+    background-size: cover;
+}
+#event-info {
+    padding: 1vh 5vh;
+}
+.event-info-text {
+    display: flex;
+    gap: 5vh;
+    padding: 0vh 0vh 3vh 0vh;
+}
+.red-text {
+    color:  red;
+}
+#eventContainer h2 {
+    margin: 3vh 0vh;
+}
+
+
+#departments {
+    width: 75%;
+    margin: 0 auto;
+}
+#dep-list {
+    display: flex;
+    justify-content: space-between; 
+}
+.dep img {
+    width: 90%;
+    height: 25vh;
+    object-fit: cover;
+}
+
+#campusLife {
+    width: 75%;
+    margin: 0 auto;
+}
+#campusLifeImages {
+    margin: 0 auto;
+    display: flex;
+    height: 40vh;
+    gap: 1%;
+    margin-bottom: 5vh;
+}
+#campusLifeLeft {
+    width: 45%;
+}
+#campusLifeLeft img {
+    width: 100%;
+    height: 100%;
+}
+#campusLifeRight {
+    width: 55%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    gap: 1%;
+}
+#campusLifeRight img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#placement {
+    width: 75%;
+    height: 40vh;
+    margin: 0 auto;
+    background-color: brown;
+    border: 2px solid black;
+}
+#placement-opt {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#student, #company, #stats {
+    width: 30vh;
+    height: 20vh;
+    background-color:lightgray;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
